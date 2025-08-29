@@ -1,0 +1,498 @@
+[
+	{
+		"Розетки": [
+			{
+				"name": "Электрические розетки",
+				"link": "/rozetki/elektricheskie-rozetki"
+			},
+			{
+				"name": "Электрические с USB",
+				"link": "/rozetki/elektricheskie-s-usb"
+			},
+			{
+				"name": "USB-розетки",
+				"link": "/rozetki/usb-rozetki"
+			},
+			{
+				"name": "ТВ-розетки",
+				"link": "/rozetki/tv-rozetki"
+			},
+			{
+				"name": "Компьютерные розетки",
+				"link": "/rozetki/kompyuternye-rozetki"
+			},
+			{
+				"name": "Аудио-розетки",
+				"link": "/rozetki/audio-rozetki"
+			},
+			{
+				"name": "Телефонные розетки",
+				"link": "/rozetki/telefonnye-rozetki"
+			},
+			{
+				"name": "Мультимедийные розетки",
+				"link": "/rozetki/multimediynye-rozetki"
+			},
+			{
+				"name": "Розеточные блоки",
+				"link": "/rozetki/rozetochnye-bloki"
+			},
+			{
+				"name": "Специальные и модульные розетки",
+				"link": "/rozetki/specialnye-i-modulnye-rozetki"
+			},
+			{
+				"name": "Промышленные розетки и разъемы",
+				"link": "/rozetki/promyshlennye-rozetki-i-razemy"
+			},
+			{
+				"name": "Выводы кабеля",
+				"link": "/rozetki/vyvody-kabelya"
+			},
+			{
+				"name": "Удлинители",
+				"link": "/rozetki/udliniteli"
+			}
+		]
+	},
+	{
+		"Выключатели": [
+			{
+				"name": "Выключатели и переключатели",
+				"link": "/vyklyuchateli/vyklyuchateli-i-pereklyuchateli"
+			},
+			{
+				"name": "Кнопки самовозвратные",
+				"link": "/vyklyuchateli/knopochnye-vyklyuchateli"
+			},
+			{
+				"name": "Поворотные выключатели",
+				"link": "/vyklyuchateli/povorotnye-vyklyuchateli"
+			},
+			{
+				"name": "Выключатели жалюзи (рольставней)",
+				"link": "/vyklyuchateli/vyklyuchateli-jalyuzi-rolstavney"
+			},
+			{
+				"name": "Карточные выключатели",
+				"link": "/vyklyuchateli/kartochnye-vyklyuchateli"
+			},
+			{
+				"name": "Сенсорные и электронные",
+				"link": "/vyklyuchateli/sensornye-i-elektronnye"
+			},
+			{
+				"name": "Выключатели со шнуром",
+				"link": "/vyklyuchateli/vyklyuchateli-so-shnurom"
+			},
+			{
+				"name": "Клавиши",
+				"link": "/vyklyuchateli/klavishi"
+			},
+			{
+				"name": "Модульные",
+				"link": "/vyklyuchateli/modulnye"
+			},
+			{
+				"name": "Комплектующие",
+				"link": "/vyklyuchateli/komplektuyushchie"
+			},
+			{
+				"name": "Звонки",
+				"link": "/vyklyuchateli/zvonki"
+			}
+		]
+	},
+	{
+		"Регуляторы и датчики": [
+			{
+				"name": "Светорегуляторы (диммеры)",
+				"link": "/regulyatory-i-datchiki/svetoregulyatory-dimmery"
+			},
+			{
+				"name": "Датчики присутствия и движения",
+				"link": "/regulyatory-i-datchiki/datchiki-prisutstviya-i-dvijeniya"
+			},
+			{
+				"name": "Терморегуляторы",
+				"link": "/regulyatory-i-datchiki/termoregulyatory"
+			},
+			{
+				"name": "Таймеры",
+				"link": "/regulyatory-i-datchiki/taymery"
+			},
+			{
+				"name": "Дисплеи и домофоны",
+				"link": "/regulyatory-i-datchiki/displei-i-domofony"
+			}
+		]
+	},
+	{
+		"Рамки": [
+			{
+				"name": "Адаптеры и переходники для рамок",
+				"link": "/ramki/adaptery-i-perehodniki-dlya-ramok"
+			},
+			{
+				"name": "1-постовые",
+				"link": "/ramki/1-postovye"
+			},
+			{
+				"name": "2-постовые",
+				"link": "/ramki/2-postovye"
+			},
+			{
+				"name": "3-постовые",
+				"link": "/ramki/3-postovye"
+			},
+			{
+				"name": "4-постовые",
+				"link": "/ramki/4-postovye"
+			},
+			{
+				"name": "5-постовые",
+				"link": "/ramki/5-postovye"
+			},
+			{
+				"name": "Монтажные и модульные рамки",
+				"link": "/ramki/montajnye-ramki"
+			}
+		]
+	},
+	{
+		"Лицевые панели (накладки)": [
+			{
+				"name": "На электрические розетки",
+				"link": "/licevye-paneli-nakladki/na-elektricheskie-rozetki"
+			},
+			{
+				"name": "На поворотные выключатели",
+				"link": "/licevye-paneli-nakladki/na-povorotnye-vyklyuchateli"
+			},
+			{
+				"name": "На выключатели для жалюзи",
+				"link": "/licevye-paneli-nakladki/na-vyklyuchateli-dlya-jalyuzi"
+			},
+			{
+				"name": "На светорегуляторы и реостаты",
+				"link": "/licevye-paneli-nakladki/na-svetoregulyatory-i-reostaty"
+			},
+			{
+				"name": "На компьютерные розетки",
+				"link": "/licevye-paneli-nakladki/na-kompyuternye-rozetki"
+			},
+			{
+				"name": "На телефонные розетки",
+				"link": "/licevye-paneli-nakladki/na-telefonnye-rozetki"
+			},
+			{
+				"name": "На USB розетки",
+				"link": "/licevye-paneli-nakladki/na-usb-rozetki"
+			},
+			{
+				"name": "На ТВ розетки",
+				"link": "/licevye-paneli-nakladki/na-tv-rozetki"
+			},
+			{
+				"name": "На мультимедийные розетки",
+				"link": "/licevye-paneli-nakladki/na-multimediynye-rozetki"
+			},
+			{
+				"name": "На вывод кабеля",
+				"link": "/licevye-paneli-nakladki/na-vyvod-kabelya"
+			},
+			{
+				"name": "На таймеры",
+				"link": "/licevye-paneli-nakladki/na-taymery"
+			},
+			{
+				"name": "На карточные выключатели",
+				"link": "/licevye-paneli-nakladki/na-kartochnye-vyklyuchateli"
+			},
+			{
+				"name": "Заглушки",
+				"link": "/licevye-paneli-nakladki/zaglushki"
+			}
+		]
+	},
+	{
+		"Умный дом": [
+			{
+				"name": "Умные розетки",
+				"link": "/umnyy-dom/umnye-rozetki"
+			},
+			{
+				"name": "Умные выключатели",
+				"link": "/umnyy-dom/umnye-vyklyuchateli"
+			}
+		]
+	},
+	{
+		"Лючки, коробки, стойки, комплектующие": [
+			{
+				"name": "Стойки и колонны",
+				"link": "/lyuchki-korobki-komplektuyushchie/stoyki-i-kolonny"
+			},
+			{
+				"name": "Блоки открытой и скрытой установки",
+				"link": "/lyuchki-korobki-komplektuyushchie/bloki-otkrytoy-i-skrytoy-ustanovki"
+			},
+			{
+				"name": "Коробки",
+				"link": "/lyuchki-korobki-komplektuyushchie/korobki"
+			},
+			{
+				"name": "Короба и комплектующие",
+				"link": "/lyuchki-korobki-komplektuyushchie/koroba-i-komplektuyushchie"
+			},
+			{
+				"name": "Лючки",
+				"link": "/lyuchki-korobki-komplektuyushchie/lyuchki"
+			},
+			{
+				"name": "Комплектующие",
+				"link": "/lyuchki-korobki-komplektuyushchie/komplektuyushchie"
+			}
+		]
+	},
+	{
+		"Автоматы, дифы, узо и прочее модульное оборудование": [
+			{
+				"name": "Автоматические выключатели",
+				"link": "/avtomaty-dify-uzo/avtomaticheskie-vyklyuchateli"
+			},
+			{
+				"name": "Дифференциальные автоматы (дифавтомат)",
+				"link": "/avtomaty-dify-uzo/differencialnye-avtomaty-difavtomat"
+			},
+			{
+				"name": "Устройства защитного отключения (УЗО)",
+				"link": "/avtomaty-dify-uzo/ustroystva-zashchitnogo-otklyucheniya-uzo"
+			},
+			{
+				"name": "Выключатели нагрузки",
+				"link": "/avtomaty-dify-uzo/vyklyuchateli-nagruzki"
+			},
+			{
+				"name": "Защита от дугового пробоя",
+				"link": "/avtomaty-dify-uzo/zashchita-ot-dugovogo-proboya"
+			},
+			{
+				"name": "Ограничители напряжения (УЗИП)",
+				"link": "/avtomaty-dify-uzo/ogranichiteli-napryajeniya-uzip"
+			},
+			{
+				"name": "Аксессуары для автоматов",
+				"link": "/avtomaty-dify-uzo/aksessuary-dlya-avtomatov"
+			},
+			{
+				"name": "Держатели предохранителей, предохранители",
+				"link": "/avtomaty-dify-uzo/razediniteli-predohraniteli"
+			},
+			{
+				"name": "Реле",
+				"link": "/avtomaty-dify-uzo/rele-vremeni"
+			},
+			{
+				"name": "Модульные контакторы",
+				"link": "/avtomaty-dify-uzo/kontaktory"
+			},
+			{
+				"name": "Гребенчатые шинки",
+				"link": "/avtomaty-dify-uzo/grebenchatye-shinki"
+			},
+			{
+				"name": "Доп оборудование",
+				"link": "/avtomaty-dify-uzo/dop-oborudovanie"
+			}
+		]
+	},
+	{
+		"Пластиковые и металлические щиты": [
+			{
+				"name": "Пластиковые щиты",
+				"link": "/shkafy-i-shchity/vstraivaemye-shkafy"
+			},
+			{
+				"name": "Металлические щиты",
+				"link": "/shkafy-i-shchity/navesnye-shchity"
+			},
+			{
+				"name": "Сборные корпуса щитов",
+				"link": "/shkafy-i-shchity/funkcionalnye-obolochki"
+			},
+			{
+				"name": "Универсальные шкафы",
+				"link": "/shkafy-i-shchity/universalnye-shkafy"
+			},
+			{
+				"name": "Напольные щиты",
+				"link": "/shkafy-i-shchity/napolnye-shchity"
+			},
+			{
+				"name": "Клеммы и комплектующие",
+				"link": "/shkafy-i-shchity/klemmy-i-komplektuyushchie"
+			},
+			{
+				"name": "Аксессуары для щитов",
+				"link": "/shkafy-i-shchity/aksessuary-dlya-shchitov"
+			},
+			{
+				"name": "Щитовые приборы",
+				"link": "/shkafy-i-shchity/shchitovye-pribory"
+			}
+		]
+	},
+	{
+		"Силовое оборудование": [
+			{
+				"name": "Силовые вилки и розетки",
+				"link": "/silovoe-oborudovanie/silovye-vilki-i-rozetki"
+			},
+			{
+				"name": "Автоматический ввод резерва (АВР)",
+				"link": "/silovoe-oborudovanie/avtomaticheskiy-vvod-rezerva-avr"
+			},
+			{
+				"name": "Автоматические выключатели в литом корпусе",
+				"link": "/silovoe-oborudovanie/avtomaticheskie-vyklyuchateli-v-litom-korpuse"
+			},
+			{
+				"name": "Рубильники",
+				"link": "/silovoe-oborudovanie/rubilniki"
+			},
+			{
+				"name": "Трансформаторы",
+				"link": "/silovoe-oborudovanie/transformatory"
+			},
+			{
+				"name": "Пускорегулирующая аппаратура",
+				"link": "/silovoe-oborudovanie/puskoreguliruyushchaya-apparatura"
+			},
+			{
+				"name": "Предохранители",
+				"link": "/silovoe-oborudovanie/predohraniteli"
+			},
+			{
+				"name": "Автоматические воздушные выключатели",
+				"link": "/silovoe-oborudovanie/avtomaticheskie-vozdushnye-vyklyuchateli"
+			},
+			{
+				"name": "Компенсация реактивной мощности (УКРМ)",
+				"link": "/silovoe-oborudovanie/kompensaciya-reaktivnoy-moshchnosti-ukrm"
+			},
+			{
+				"name": "Конденсаторы",
+				"link": "/silovoe-oborudovanie/kondensatory"
+			},
+			{
+				"name": "Устройства плавного пуска",
+				"link": "/silovoe-oborudovanie/ustroystva-plavnogo-puska"
+			}
+		]
+	},
+	{
+		"Промышленная автоматизация": [
+			{
+				"name": "Ультразвуковые, индукционные и фотодатчики и аксессуары",
+				"link": "/promyshlennaya-avtomatizaciya/ultrazvukovye-infrakrasnye-i-fotodatchiki"
+			},
+			{
+				"name": "Серводвигатели, инкрементальне энкодеры и аксессуары",
+				"link": "/promyshlennaya-avtomatizaciya/servodvigateli-i-inkrementalne-enkodery"
+			},
+			{
+				"name": "Концевые выключатели и аксессуары",
+				"link": "/promyshlennaya-avtomatizaciya/koncevye-vyklyuchateli-i-aksessuary"
+			},
+			{
+				"name": "Тросовые, шнуровые выключатели и аксессуары",
+				"link": "/promyshlennaya-avtomatizaciya/trosovye-shnurovye-vyklyuchateli-i-aksessuary"
+			},
+			{
+				"name": "Системы управления",
+				"link": "/promyshlennaya-avtomatizaciya/sistemy-upravleniya"
+			},
+			{
+				"name": "Промышленные датчики Telemecanique",
+				"link": "/promyshlennaya-avtomatizaciya/promyshlennye-datchiki-telemecanique"
+			},
+			{
+				"name": "Проектная приводная техника",
+				"link": "/promyshlennaya-avtomatizaciya/proektnaya-privodnaya-tehnika"
+			},
+			{
+				"name": "Контроллеры, модули и коммутаторы",
+				"link": "/promyshlennaya-avtomatizaciya/kontrollery-moduli-i-kommutatory"
+			},
+			{
+				"name": "Частотно-регулируемые преобразователи (ЧРП)",
+				"link": "/promyshlennaya-avtomatizaciya/chastotno-reguliruemye-preobrazovateli-chrp"
+			},
+			{
+				"name": "Дополнительное оборудование",
+				"link": "/promyshlennaya-avtomatizaciya/dopolnitelnoe-oborudovanie"
+			}
+		]
+	},
+	{
+		"Контроль климата": [
+			{
+				"name": "Вентиляция воздуха",
+				"link": "/kontrol-klimata/ventilyaciya-vozduha"
+			},
+			{
+				"name": "Термостаты и обогреватели",
+				"link": "/kontrol-klimata/termostaty-i-obogrevateli"
+			},
+			{
+				"name": "Кондиционеры",
+				"link": "/kontrol-klimata/kondicionery"
+			}
+		]
+	},
+	{
+		"Светосигнальная аппаратура": [
+			{
+				"name": "Аксессуары для светосигнальной аппаратуры",
+				"link": "/svetosignalnaya-apparatura/aksessuary-dlya-svetosignalnoy-apparatury"
+			},
+			{
+				"name": "Зуммеры",
+				"link": "/svetosignalnaya-apparatura/zummery"
+			},
+			{
+				"name": "Кнопки",
+				"link": "/svetosignalnaya-apparatura/vyklyuchateli-knopochnye"
+			},
+			{
+				"name": "Джойстики",
+				"link": "/svetosignalnaya-apparatura/djoystiki"
+			},
+			{
+				"name": "Лампы",
+				"link": "/svetosignalnaya-apparatura/lampy-kommutacionnye"
+			},
+			{
+				"name": "Переключатели",
+				"link": "/svetosignalnaya-apparatura/pereklyuchateli"
+			},
+			{
+				"name": "Посты кнопочные",
+				"link": "/svetosignalnaya-apparatura/posty-knopochnye"
+			},
+			{
+				"name": "Сигнальные маяки",
+				"link": "/svetosignalnaya-apparatura/signalnye-mayaki"
+			}
+		]
+	},
+	{
+		"Зарядные станции": [
+			{
+				"name": "Зарядные станции",
+				"link": "/zaryadnye-stancii"
+			}
+		]
+	}
+]
