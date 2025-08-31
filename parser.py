@@ -55,10 +55,12 @@ class Parser:
     def getpage(self, link):
         res = requests.get(link)
         res.raise_for_status()
+        with open('last-fetch.html', 'w', encoding='utf-8') as file:
+            file.write(res.text)
         return res.text
 
     # Получаем список карточек товаров по категории и странице
-    def get_cards(self, category, page):
+    def get96cards(self, category, page):
         try:
             content = self.getpage(
                 f"https://schneider-russia.com{category}?order=viewed&onpage=96&page={page}"
@@ -78,7 +80,7 @@ class Parser:
             cards_elems = tree.select('.grid-products > li')
             if len(cards_elems) == 0:
                 print("Карточки не найдены")
-                return None
+                return (None, shown, total)
 
             cards = []
             for card in cards_elems:
@@ -99,10 +101,9 @@ class Parser:
 
                 except Exception as e:
                     print(f"Не удалось получить карточку: {e}")
-                    continue
 
             return (cards, shown, total)
 
         except Exception as e:
-            print(f"Ошибка получения страницы: {e}")
-            return None
+            print(f"Ошибка получения страницы категории: {e}")
+            return (None, None, None)

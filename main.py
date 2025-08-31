@@ -1,89 +1,40 @@
-import json
-import csv
-import os
 from parser import Parser
+import json
+import math
 
+parser = Parser()
 
-CSV_FILE = "cards.csv"
+with open('./categories.json', 'r', encoding='utf-8') as cats_file:
+    cats = json.load(cats_file)
 
+    for cat in cats:
+        cat_name = cat['name']
+        print(f"Новая категория \"{cat_name}\"")
+        subcats = cat['subcategories']
 
-def save_cards_to_csv(cards, category_name, subcategory_name, filename=CSV_FILE):
-    """Сохраняет список карточек в CSV, добавляя категорию и подкатегорию"""
-    file_exists = os.path.isfile(filename)
+        for subcat in subcats:
+            subcat_name = subcat['name']
+            print(f"Новая под-категория \"{subcat_name}\"")
+            subcat_link = subcat['link']
 
-    with open(filename, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=["category", "subcategory", "image", "title", "serial", "price"]
-        )
+            _, _, total = parser.get96cards(subcat_link, 1)
 
-        # Записываем заголовки только если файл создаётся впервые
-        if not file_exists:
-            writer.writeheader()
+            if not total:
+                print(f"Не удалось получить кол-во карточек (\"{cat_name}\" -> \"{subcat_name}\")")
+                continue
 
-        for card in cards:
-            writer.writerow({
-                "category": category_name,
-                "subcategory": subcategory_name,
-                "image": "https://schneider-russia.com" + card["image"],
-                "title": card["title"],
-                "serial": card["serial"],
-                "price": card["price"]
-            })
+            pages_count = math.ceil(total / 96)
 
+            for page in range(1, pages_count+1):
+                print(f"(\"{cat_name}\" -> \"{subcat_name}\" -> {page}/{pages_count})")
 
-def process_page(parser, category_name, subcategory_name, link, page):
-    cards, total_pages, fully_parsed = parser.get_cards(link, page)
-    if not cards:
-        return False
-    
-    #print(cards)
+                cards, shown, total = parser.get96cards(subcat_link, page)
 
-    # Сохраняем в CSV
-    save_cards_to_csv(cards, category_name, subcategory_name)
-
-    print(f"В таблицу занесено {len(cards)} карточек по пути {category_name}/{subcategory_name}")
-
-    if fully_parsed:
-        print(f"Под-категория {category_name} полностью получена")
-        return True
-
-    return False
-
-
-def process_subcategory(parser, category_name, subcategory):
-    subcat_name = subcategory["name"]
-    subcat_link = subcategory["link"]
-
-    print(f"Текущая под-категория: {subcat_name}")
-
-    # Первая страница
-    fully_parsed = process_page(parser, category_name, subcat_name, subcat_link, 1)
-    if fully_parsed:
-        return
-
-    # Остальные страницы
-    _, total_pages, _ = parser.get_cards(subcat_link, 1)
-    print(total_pages)
-    for page in range(2, total_pages + 1):
-        fully_parsed = process_page(parser, category_name, subcat_name, subcat_link, page)
-        if fully_parsed:
-            break
-
-
-def main() -> None:
-    parser = Parser()
-
-    with open("categories.json", "r", encoding="utf-8") as f:
-        categories = json.load(f)
-
-    for category in categories:
-        category_name = category["name"]
-        print(f"Текущая категория: {category_name}")
-
-        for subcategory in category["subcategories"]:
-            process_subcategory(parser, category_name, subcategory)
-
-
-if __name__ == "__main__":
-    main()
+                if not cards:
+                    print(f"Не удалось получить карточки (\"{cat_name}\" -> \"{subcat_name}\" -> {page}/{pages_count})")
+                
+                for card in cards:
+                    pass # Добавляем в таблицу
+                    print(card["title"][:15])
+                
+                print(f"В таблицу добавлено {len(cards)}")
