@@ -1,8 +1,10 @@
 from parser import Parser
+from table import CsvTable
 import json
 import math
 
 parser = Parser()
+table = CsvTable('cards.csv', ['Категория', 'Название', 'Цена', 'Бренд'])
 
 with open('./categories.json', 'r', encoding='utf-8') as cats_file:
     cats = json.load(cats_file)

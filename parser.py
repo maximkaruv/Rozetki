@@ -1,9 +1,6 @@
 import requests
 from lxml import html
-import json
-import re
-import ast
-
+import json, re, ast
 
 class Parser:
     # Получаем HTML разметку по ссылке
