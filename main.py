@@ -17,18 +17,22 @@ with open('./categories.json', 'r', encoding='utf-8') as cats_file:
             print(f"Новая под-категория \"{subcat_name}\"")
             subcat_link = subcat['link']
 
-            _, _, total = parser.get96cards(subcat_link, 1)
+            total = parser.getpages(subcat_link)
 
             if not total:
                 print(f"Не удалось получить кол-во карточек (\"{cat_name}\" -> \"{subcat_name}\")")
                 continue
 
             pages_count = math.ceil(total / 96)
+            print(f"Кол-во страниц: {pages_count}")
 
             for page in range(1, pages_count+1):
                 print(f"(\"{cat_name}\" -> \"{subcat_name}\" -> {page}/{pages_count})")
 
-                cards, shown, total = parser.get96cards(subcat_link, page)
+                cards = parser.get96cards(subcat_link, page)
+
+                print(cards)
+                continue
 
                 if not cards:
                     print(f"Не удалось получить карточки (\"{cat_name}\" -> \"{subcat_name}\" -> {page}/{pages_count})")
